@@ -34,7 +34,6 @@ namespace Pessoal.Repositorios.SqlServer.Testes
         public void SelecionarTodosTeste()
         {
             Assert.IsTrue(repositorio.Selecionar().Count > 1);
-
         }
 
         [TestMethod]
